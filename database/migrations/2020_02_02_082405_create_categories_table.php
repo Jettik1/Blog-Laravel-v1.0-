@@ -20,7 +20,6 @@ class CreateCategoriesTable extends Migration
             $table->string('slug')->unique();
 
             $table->integer('parent_id')->nullable();
-            $table->boolean('is_published');
 
             $table->timestamps();
         });

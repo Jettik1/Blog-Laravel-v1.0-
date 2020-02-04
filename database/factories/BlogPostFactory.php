@@ -2,7 +2,7 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\Model;
+
 use Faker\Generator as Faker;
 
 $factory->define(\App\BlogPost::class, function (Faker $faker) {
@@ -14,9 +14,9 @@ $factory->define(\App\BlogPost::class, function (Faker $faker) {
 
     return [
         'category_id' => rand(1, 11),
-        'tag_id' => rand(1, 11),
         'user_id' => 1,
         'title'   => $title,
+        'slug' => Str::slug($title),
         'excerpt' => $faker->text(rand(40, 100)),
         'content_raw' => $txt,
         'content_html' => $txt,

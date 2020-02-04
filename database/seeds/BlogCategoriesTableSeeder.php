@@ -15,18 +15,20 @@ class BlogCategoriesTableSeeder extends Seeder
 
         $cName = 'Без категории';
         $categories[] = [
-            'title' => $cName
+            'title' => $cName,
+            'slug' => Str::slug($cName),
         ];
 
         for ($i = 1; $i <= 10; $i++) {
             $cName = 'Категория №'.$i;
 
             $categories[] = [
-                'title' => $cName
+                'title' => $cName,
+                'slug' => Str::slug($cName),
             ];
         }
 
-        DB::table('blog_categories')->insert($categories);
+        DB::table('categories')->insert($categories);
 
     }
 }
