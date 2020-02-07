@@ -106,7 +106,14 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Item 5</a>
       </li>
-      <li class="nav-item dropdown">
+      
+    </ul>
+    <!--<form class="form-inline ml-auto mt-2 mt-md-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+    <ul  class="nav-inline ml-auto my-2 my-sm-0">
+        <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
@@ -123,11 +130,7 @@
                                     </form>
                                 </div>
                             </li>
-    </ul>
-    <form class="form-inline ml-auto mt-2 mt-md-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+                        </ul>
   </div>
 </nav>
 
