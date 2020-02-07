@@ -28,7 +28,7 @@
     <div id="app">
 
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">Sidebar Nav</a>
+  <a class="navbar-brand" href="{{ url('/') }}">{{ config('app.name', 'Laravel') }}</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -47,7 +47,7 @@
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Item 1</a>
+        <a class="nav-link" href="#">Posts</a>
       </li>
       <li class="nav-item">
         <a
@@ -58,22 +58,22 @@
           data-target="#collapseSubItems2"
           aria-controls="collapseSubItems2"
           aria-expanded="false"
-        >Item 2</a>
+        >Categories</a>
         <ul class="nav-second-level collapse" id="collapseSubItems2" data-parent="#navAccordion">
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span class="nav-link-text">Item 2.1</span>
+              <span class="nav-link-text">Create</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span class="nav-link-text">Item 2.2</span>
+              <span class="nav-link-text">Show</span>
             </a>
           </li>
         </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Item 3</a>
+        <a class="nav-link" href="#">Comments</a>
       </li>
       <li class="nav-item">
         <a
@@ -138,5 +138,12 @@
             @yield('content')
         </main>
     </div>
+    <footer class="footer">
+  <div class="container">
+      <div class="text-center">
+          <span>Copyright @ 2020</span>
+      </div>
+  </div>
+</footer>
 </body>
 </html>
