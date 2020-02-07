@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="625201b5-c79f-4424-8225-f1cf4f907122" name="Default Changelist" comment="" />
+    <list default="true" id="625201b5-c79f-4424-8225-f1cf4f907122" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +25,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -106,6 +122,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1XDDGwx63yKP9qt6q0AJolOBSKU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -113,6 +130,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -147,6 +165,7 @@
       <workItem from="1580571727381" duration="3206000" />
       <workItem from="1580629235879" duration="15093000" />
       <workItem from="1580722225351" duration="27000" />
+      <workItem from="1581011699076" duration="5709000" />
     </task>
     <servers />
   </component>
@@ -174,10 +193,10 @@
     </state>
     <state width="1272" height="207" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1580721493191" />
     <state width="1272" height="207" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580631818796" />
-    <state x="490" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1580722227858">
+    <state x="490" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1581011800932">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="490" y="223" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1580722227858" />
+    <state x="490" y="223" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1581011800932" />
     <state x="577" y="264" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1580629247505" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1580717038620">
       <screen x="0" y="0" width="1600" height="860" />
