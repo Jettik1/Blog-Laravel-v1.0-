@@ -21,7 +21,7 @@
 					<tr>
 						<td>{{$category->title}}</td>
 						<td>
-							<a href="{{ route ('admin.category.edit', ['category'=>$category->id]) }}"><i class="fa fa-edit"></i></a>
+							<a href="{{ route ('admin.category.edit', ['category'=>$category->id]) }}"><i class="fa fa-edit"></i>Edit</a>
 						</td>
 
 					</tr>

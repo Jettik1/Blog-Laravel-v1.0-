@@ -20,7 +20,7 @@ class BlogCategoriesTableSeeder extends Seeder
         ];
 
         for ($i = 1; $i <= 10; $i++) {
-            $cName = 'Категория №'.$i;
+            $cName = 'Категория №'.$i+1;
 
             $categories[] = [
                 'title' => $cName,
