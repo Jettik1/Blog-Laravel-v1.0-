@@ -2,14 +2,14 @@
 
 @section ('content')
 	<div class="container">
-		@component('admin.components.breadcrumb')
-			@slot('title')Список категорий @endslot
-			@slot('active')Категории @endslot
+		@component ('admin.categories.components.breadcrumb')
+			@slot ('title') Список категорий @endslot
+			@slot ('active') Категории @endslot
 		@endcomponent
 
 		<hr>
 
-		<a href="#"><i class="fa fa-plus-square-o"></i>Создать категорию</a>
+		<a href="{{ route('admin.category.create') }}"><i class="fa fa-plus-square-o"></i>Создать категорию</a>
 		<table class="table table-striped">
 			<thead>
 				<th>Наименование</th>
@@ -17,7 +17,7 @@
 				<th class="text-right">Действие</th>
 			</thead>
 			<tbody>
-				@forelse ($categories as category)
+				@forelse ($categories as $category)
 					<tr>
 						<td>{{$category->title}}</td>
 						<td>
