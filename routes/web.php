@@ -20,8 +20,8 @@ Auth::routes(['register' => false]);
 
 
 Route::group(['prefix'=>'admin', 'namespace'=>'Admin', 'middleware'=>['auth']], function (){
-    Route::get('/','DashboardController@dashboard')->name('index');
+    Route::get('/dashboard','DashboardController@dashboard')->name('admin.index');
     Route::get('/home', 'HomeController@index')->name('/home');
-    Route::get('/posts', 'PostController@index');
-    Route::get('/posts/{id}', 'PostController@show');
+    Route::resource('/posts', 'PostController');
+    Route::resource('/category', 'CategoryController', ['as'=>'admin']);
 });

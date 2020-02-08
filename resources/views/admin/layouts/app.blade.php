@@ -46,8 +46,12 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">Posts</a>
+        <a class="nav-link" href="{{ url('/admin/dashboard') }}">Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Materials</a>
       </li>
       <li class="nav-item">
         <a
@@ -66,16 +70,13 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link" href=" {{ url('admin/category') }}  ">
               <span class="nav-link-text">Show</span>
             </a>
           </li>
         </ul>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Comments</a>
-      </li>
-      <li class="nav-item">
+            <li class="nav-item">
         <a
           class="nav-link nav-link-collapse"
           href="#"
@@ -84,35 +85,37 @@
           data-target="#collapseSubItems4"
           aria-controls="collapseSubItems4"
           aria-expanded="false"
-        >Item 4</a>
+        >Posts</a>
         <ul class="nav-second-level collapse" id="collapseSubItems4" data-parent="#navAccordion">
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span class="nav-link-text">Item 4.1</span>
+              <span class="nav-link-text">Create</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span class="nav-link-text">Item 4.2</span>
+              <span class="nav-link-text">Show</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span class="nav-link-text">Item 4.2</span>
+              <span class="nav-link-text">Item</span>
             </a>
           </li>
         </ul>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="#">Item 5</a>
+        <a class="nav-link" href="#">Comments</a>
       </li>
+      
       
     </ul>
     <!--<form class="form-inline ml-auto mt-2 mt-md-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form>-->
-    <ul  class="nav-inline ml-auto my-2 my-sm-0">
+    <ul  class="nav-inline ml-auto  my-sm-0">
         <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -141,7 +144,7 @@
     <footer class="footer">
   <div class="container">
       <div class="text-center">
-          <span>Copyright @ 2020</span>
+          <span>Copyright @ 2020 |<a href="https://github.com/Jettio"> by Jettio</a></span>
       </div>
   </div>
 </footer>
